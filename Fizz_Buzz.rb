@@ -13,15 +13,15 @@ end
 
 #v2
 def fizz(n)
-  (1..n).each do |i|
-    if (i % 3 == 0) and (i % 5 == 0)
+  (1..n).each do |n|
+    if (n % 3 == 0) and (n % 5 == 0)
       puts 'FizzBuzz'
-    elsif (i % 3 == 0)
+    elsif (n % 3 == 0)
       puts 'Fizz'
-    elsif (i % 5 == 0)
+    elsif (n % 5 == 0)
       puts 'Buzz'
     else
-      puts i
+      puts n
     end
   end
 end
